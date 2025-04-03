@@ -37,5 +37,4 @@ o  { color: Orange }
 lo { color:rgb(242, 207, 157) }
 pu { color: Purple }
 bn { color: Brown }
-<span><hr style="background-color: rgb(126, 167, 255);"/></span>
 </style>
