@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgets_app/presentation/menu/menu_item.dart';
 
 class HomePage extends StatelessWidget {
 
@@ -15,7 +16,7 @@ class HomePage extends StatelessWidget {
       ),
    
       body: const Center(
-        child: Text('HomePage'),
+        child: MainMenu(),
       ),
     );
   }

@@ -31,7 +31,8 @@ class MenuItems {
   }
 }
 
-/// elementos del menú
+
+/// Elementos del menú
 const appMenuItems = <MenuItems>[
 
   MenuItems(
@@ -49,3 +50,42 @@ const appMenuItems = <MenuItems>[
   ),
 
 ];
+
+
+/// Menu principal
+class MainMenu extends StatelessWidget {
+   
+  const MainMenu({super.key});
+  
+  @override
+  Widget build(BuildContext context) {
+    return ListView.builder(
+      physics: BouncingScrollPhysics(),
+      itemCount: appMenuItems.length,
+      itemBuilder: (context, index) => _CustomListTile( item: appMenuItems[index], )
+    );
+  }
+}
+
+
+class _CustomListTile extends StatelessWidget {
+
+  final MenuItems item;
+
+  const _CustomListTile({ required this.item });
+
+  @override
+  Widget build(BuildContext context) {
+
+    //& Colores del tema
+    final colors = Theme.of(context).colorScheme;
+
+    return ListTile(
+      title: Text( item.title ),
+      subtitle: Text( item.subTitle ),
+      leading: Icon( item.icon, color: colors.primary, ),
+      trailing: Icon( Icons.arrow_forward_ios_outlined, color: colors.primary, ),
+      onTap: (){},
+    );
+  }
+}
