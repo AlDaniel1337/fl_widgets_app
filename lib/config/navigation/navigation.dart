@@ -19,8 +19,8 @@ class Routes{
     return pages;
   } 
 
-    //^ ==========[ NAVEGACIÓN ]========== ^\\
-  
+
+  //+ ==========[ NAVEGACIÓN ]========== +\\
   /// Moverse a otra pantalla dejando la anterior en el historial
   static goToPage({required String page}) => Get.toNamed(page);
 
