@@ -6,7 +6,7 @@ $${Hecho \space con \space \color{blue}Flutter}$$
 
 ******************************************************************************************
 ## Descripción
-Aplicación que muestra e funcionamiento de algunos widgets utiles
+Aplicación que muestra el funcionamiento de algunos widgets utiles
 
 ***
 ## DEV: Ejecutar en desarrollo
@@ -17,12 +17,9 @@ Aplicación que muestra e funcionamiento de algunos widgets utiles
 * Flutter
 
 ### Paquetes usados
-| Uso                  | Paquete
-|----------------------|-----------------------------------
-| Gestores de estado   | [provider](https://pub.dev/packages/provider)        
-|                      | flutter_riverpod           
-
-
+[Get](https://pub.dev/packages/get)
+* Gestor de estado
+* Navegación
 
 
 
