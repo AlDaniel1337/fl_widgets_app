@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:widgets_app/presentation/pages/pages.dart';
 import 'package:get/get.dart';
 
@@ -17,4 +18,13 @@ class Routes{
     
     return pages;
   } 
+
+    //^ ==========[ NAVEGACIÓN ]========== ^\\
+  
+  /// Moverse a otra pantalla dejando la anterior en el historial
+  static goToPage({required String page}) => Get.toNamed(page);
+
+  /// Cerrar y regresar a la página anterior
+  static goBackToPage({required BuildContext context}) => Navigator.of(context).pop(true);
+
 }
