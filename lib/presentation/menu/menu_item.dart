@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgets_app/config/navigation/navigation.dart';
 import 'package:widgets_app/presentation/pages/pages.dart';
 
 class MenuItems {
@@ -86,7 +87,9 @@ class _CustomListTile extends StatelessWidget {
       subtitle: Text( item.subTitle ),
       leading: Icon( item.icon, color: colors.primary, ),
       trailing: Icon( Icons.arrow_forward_ios_outlined, color: colors.primary, ),
-      onTap: (){},
+      onTap: (){
+        Routes.goToPage( page: item.link );
+      },
     );
   }
 }
