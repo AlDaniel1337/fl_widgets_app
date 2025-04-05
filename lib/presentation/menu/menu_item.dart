@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgets_app/presentation/pages/pages.dart';
 
 class MenuItems {
   
@@ -38,14 +39,14 @@ const appMenuItems = <MenuItems>[
   MenuItems(
     title: "Botones", 
     subTitle: "Varios botones en Flutter", 
-    link: "/buttons", 
+    link: ButtonsPage.route, 
     icon: Icons.smart_button_outlined
   ),
 
   MenuItems(
     title: "Tarjetas", 
     subTitle: "Un contenedor estilizado", 
-    link: "/card", 
+    link: CardsPage.route, 
     icon: Icons.credit_card
   ),
 
