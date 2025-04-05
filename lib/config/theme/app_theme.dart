@@ -29,8 +29,13 @@ class AppTheme{
   static ThemeData theme({ ColorTheme themeColor = ColorTheme.blue }) => ThemeData(
     useMaterial3: true,
     colorSchemeSeed: themeColor.bgColor,
-    brightness: Brightness.light
+    brightness: Brightness.light,
+    appBarTheme: const AppBarTheme(
+      centerTitle: true,
+    )
   );
+
+
 
   //*==========[ COLORES DEL TEMA ]==========*\
 
