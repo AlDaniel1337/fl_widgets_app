@@ -1,3 +1,9 @@
-export './home/home_page.dart';
+export './animated/animated_page.dart';
+export './app_tutorial/app_tutorial_page.dart';
 export './buttons/buttons_page.dart';
 export './cards/cards_page.dart';
+export './home/home_page.dart';
+export './infinite_scroll/infinite_scroll_page.dart';
+export './progress/progress_page.dart';
+export './snackbar/snackbar_page.dart';
+export './ui_controls/ui_controls_page.dart';
