@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgets_app/presentation/menu/menu_item.dart';
+import 'package:widgets_app/presentation/menu/menu.dart';
 
 class HomePage extends StatelessWidget {
 
