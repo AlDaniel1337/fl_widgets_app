@@ -25,4 +25,11 @@ const appMenuItems = <MenuItems>[
     icon: Icons.refresh_rounded
   ),
 
+  MenuItems(
+    title: "Snackbars y diálogos", 
+    subTitle: "Generales y controlados", 
+    link: SnackbarPage.route, 
+    icon: Icons.info_outline
+  ),
+
 ];

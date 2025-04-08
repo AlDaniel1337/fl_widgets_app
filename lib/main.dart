@@ -18,8 +18,8 @@ class MyApp extends StatelessWidget {
       title: 'Widgets App',
 
       // Rutas
-      initialRoute: Routes.home,
-      getPages: Routes.getRoutes(),
+      initialRoute: Navigation.home,
+      getPages: Navigation.getRoutes(),
       navigatorKey: Get.key,
 
       // Tema
