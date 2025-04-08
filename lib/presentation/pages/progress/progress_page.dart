@@ -12,7 +12,7 @@ class ProgressPage extends StatelessWidget {
     return Scaffold(
    
       appBar: AppBar(
-         title: const Text('ProgressPage'),
+         title: const Text('Progreso'),
          centerTitle: true,
       ),
    

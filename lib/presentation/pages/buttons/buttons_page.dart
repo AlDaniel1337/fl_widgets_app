@@ -16,7 +16,7 @@ class ButtonsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('ButtonsPage'),
+        title: const Text('Botones'),
         centerTitle: true,
       ),
    

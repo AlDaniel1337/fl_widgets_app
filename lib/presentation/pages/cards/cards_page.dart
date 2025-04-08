@@ -13,7 +13,7 @@ class CardsPage extends StatelessWidget {
     return Scaffold(
    
       appBar: AppBar(
-         title: const Text('CardsPage'),
+         title: const Text('Tarjetas'),
          centerTitle: true,
       ),
    
