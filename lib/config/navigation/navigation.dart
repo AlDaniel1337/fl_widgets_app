@@ -3,7 +3,7 @@ import 'package:widgets_app/presentation/pages/pages.dart';
 import 'package:get/get.dart';
 
 /// Navegacion
-class Routes{
+class Navigation{
 
   // Ruta principal
   static const String home = HomePage.route;
@@ -31,5 +31,8 @@ class Routes{
 
   /// Cerrar y regresar a la página anterior
   static goBackToPage({required BuildContext context}) => Navigator.of(context).pop(true);
+
+  /// Salir de snackbars, dialogs, bottomsheets 
+  static goBack() => Get.back();
 
 }

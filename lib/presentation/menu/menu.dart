@@ -36,7 +36,7 @@ class _CustomListTile extends StatelessWidget {
       leading: Icon( item.icon, color: colors.primary, ),
       trailing: Icon( Icons.arrow_forward_ios_outlined, color: colors.primary, ),
       onTap: (){
-        Routes.goToPage( page: item.link );
+        Navigation.goToPage( page: item.link );
       },
     );
   }
