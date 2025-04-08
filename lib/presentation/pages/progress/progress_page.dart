@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgets_app/presentation/pages/progress/components/circular_progress_view.dart';
 
 class ProgressPage extends StatelessWidget {
 
@@ -16,7 +17,7 @@ class ProgressPage extends StatelessWidget {
       ),
    
       body: const Center(
-         child: Text('ProgressPage'),
+         child: CircularProgressView()
       ),
     );
   }
