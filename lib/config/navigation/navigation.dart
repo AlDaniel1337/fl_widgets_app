@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:widgets_app/presentation/pages/pages.dart';
 import 'package:get/get.dart';
 
-/// Navegacion
 class Navigation{
 
   // Ruta principal

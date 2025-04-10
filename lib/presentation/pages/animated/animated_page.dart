@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:widgets_app/presentation/pages/animated/components/animations_example.dart';
+import 'package:widgets_app/presentation/pages/animated/controller/animated_page_controller.dart';
 
 class AnimatedPage extends StatelessWidget {
 
@@ -8,15 +11,22 @@ class AnimatedPage extends StatelessWidget {
   
   @override
   Widget build(BuildContext context) {
+
+    AnimatedPageController animatedPageController = Get.put(AnimatedPageController());
+
     return Scaffold(
    
       appBar: AppBar(
-         title: const Text('AnimatedPage'),
-         centerTitle: true,
+        title: const Text('Contenedor Animado'),
       ),
    
-      body: const Center(
-         child: Text('AnimatedPage'),
+      body: Center(
+        child: AnimationsExample(),
+      ),
+
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => animatedPageController.changeShape(),
+        child: const Icon( Icons.play_arrow_rounded ),
       ),
     );
   }
