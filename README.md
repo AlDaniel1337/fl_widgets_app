@@ -19,5 +19,8 @@ Aplicación que muestra el funcionamiento de algunos widgets utiles
 * Gestor de estado
 * Navegación
 
+[Riverpod](https://pub.dev/packages/riverpod)
+* Gestor de estado
+
 [animate_do](https://pub.dev/packages/animate_do)    
 * Animaciones          
