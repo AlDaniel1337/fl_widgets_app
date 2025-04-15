@@ -9,4 +9,14 @@ class Animations {
     child: child,
   );
 
+  static spinPerfect( Widget child ) => SpinPerfect(
+    infinite: true,
+    duration: const Duration( seconds: 1 ),
+    child: child,
+  );
+
+  static fadeIn( Widget child ) => FadeIn(
+    child: child,
+  );
+
 }
