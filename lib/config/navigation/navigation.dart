@@ -18,6 +18,7 @@ class Navigation{
       GetPage(name: InfiniteScrollPage.route, page:() => const InfiniteScrollPage()),
       GetPage(name: ProgressPage.route,       page:() => const ProgressPage()),
       GetPage(name: SnackbarPage.route,       page:() => const SnackbarPage()),
+      GetPage(name: ThemePage.route,          page:() => const ThemePage()),
       GetPage(name: UiControlsPage.route,     page:() => const UiControlsPage()),
     ];    
     return pages;

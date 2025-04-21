@@ -6,4 +6,5 @@ export './home/home_page.dart';
 export './infinite_scroll/infinite_scroll_page.dart';
 export './progress/progress_page.dart';
 export './snackbar/snackbar_page.dart';
+export './theme/theme_page.dart';
 export './ui_controls/ui_controls_page.dart';
